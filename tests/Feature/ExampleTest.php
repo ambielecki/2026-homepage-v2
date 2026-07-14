@@ -5,9 +5,10 @@ test('the homepage renders the professional profile', function () {
         ->assertOk()
         ->assertSee('Andrew Bielecki')
         ->assertSee('Lead Software Engineer')
-        ->assertSee('Selected work')
+        ->assertSee('Hobby projects')
         ->assertSee('Start a conversation')
-        ->assertDontSee('Documentation');
+        ->assertDontSee('Documentation')
+        ->assertDontSee('Approach');
 });
 
 test('the homepage includes accessible navigation and landmarks', function () {
@@ -17,4 +18,12 @@ test('the homepage includes accessible navigation and landmarks', function () {
         ->assertSee('aria-label="Primary navigation"', false)
         ->assertSee('id="main"', false)
         ->assertSee('alt="Portrait of Andrew Bielecki"', false);
+});
+
+test('the homepage includes lightweight social icons', function () {
+    $this->get('/')
+        ->assertOk()
+        ->assertSee('aria-hidden="true"', false)
+        ->assertSee('GitHub')
+        ->assertSee('LinkedIn');
 });
