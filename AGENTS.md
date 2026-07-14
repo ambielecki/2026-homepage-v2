@@ -22,3 +22,4 @@ necessary PHP commands should be run in the docker container by using `docker ex
 
 ## Other
 - Create a committ message after any changes
+- Update the README.md after major functionality changes
