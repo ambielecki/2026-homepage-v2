@@ -19,3 +19,6 @@ This will serve as my homepage at https://www.andrewbielecki.com and replace the
 - The application is running in docker in the 2026-php85-fpm-command container, 
 necessary PHP commands should be run in the docker container by using `docker exec -it 2026-php85-fpm-command`
 - Use node installed via nvm, use the 26.4.0 version
+
+## Other
+- Create a committ message after any changes

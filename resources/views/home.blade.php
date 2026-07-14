@@ -271,7 +271,7 @@
 
                             <div class="mt-8 flex flex-col gap-3 sm:flex-row lg:mt-0 lg:flex-col xl:flex-row">
                                 <a
-                                    href="https://github.com/andrewbielecki"
+                                    href="https://github.com/ambielecki"
                                     class="inline-flex items-center justify-center gap-2 rounded-md bg-white px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-zinc-100 focus:outline focus:outline-2 focus:outline-offset-4 focus:outline-cyan-300"
                                 >
                                     <svg class="size-4" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor">
@@ -280,8 +280,8 @@
                                     GitHub
                                 </a>
                                 <a
-                                    href="https://www.linkedin.com/"
-                                    class="inline-flex items-center justify-center gap-2 rounded-md border border-zinc-600 px-5 py-3 text-sm font-semibold text-white transition hover:border-zinc-300 focus:outline focus:outline-2 focus:outline-offset-4 focus:outline-cyan-300"
+                                    href="https://www.linkedin.com/in/andrew-bielecki-5835b5123/"
+                                    class="inline-flex items-center justify-center gap-2 rounded-md bg-white px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-zinc-100 focus:outline focus:outline-2 focus:outline-offset-4 focus:outline-cyan-300"
                                 >
                                     <svg class="size-4" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor">
                                         <path d="M3.58 5.2H.6V16h2.98V5.2ZM2.09 0C1.13 0 .5.65.5 1.5c0 .83.61 1.5 1.55 1.5h.02c.98 0 1.59-.67 1.59-1.5C3.64.65 3.05 0 2.09 0ZM15.5 9.81c0-3.35-1.73-4.91-4.04-4.91-1.86 0-2.69 1.05-3.15 1.79V5.2H5.33c.04 1.01 0 10.8 0 10.8h2.98V9.97c0-.32.02-.65.12-.88.26-.65.84-1.31 1.82-1.31 1.28 0 1.8.99 1.8 2.45V16h2.98V9.81h.47Z" />
