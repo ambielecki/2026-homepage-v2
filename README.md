@@ -49,3 +49,18 @@ Reset an admin password with:
 ```bash
 docker exec -it -w /var/www/html/2026-homepage-v2 2026-php85-fpm-command php artisan admin:reset-password
 ```
+
+### Image Uploads
+
+Authenticated admins can manage uploaded images at:
+
+```text
+http://bielecki.test/admin/images
+```
+
+Uploaded images are stored on the public disk and processed into WebP sizes for
+large, medium, and small displays. Reprocess an uploaded image manually with:
+
+```bash
+docker exec -it -w /var/www/html/2026-homepage-v2 2026-php85-fpm-command php artisan images:process {image_id}
+```

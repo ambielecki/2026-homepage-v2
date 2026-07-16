@@ -27,17 +27,31 @@
                         Andrew Bielecki
                     </a>
 
-                    @auth
-                        <form method="POST" action="{{ route('logout') }}">
-                            @csrf
-                            <button
-                                type="submit"
-                                class="rounded-md border border-zinc-300 bg-white px-4 py-2 text-sm font-semibold text-zinc-950 transition hover:border-zinc-500 focus:outline focus:outline-2 focus:outline-offset-4 focus:outline-cyan-600"
+                    <div class="flex items-center gap-4">
+                        @auth
+                            <a
+                                href="{{ route('admin.dashboard') }}"
+                                class="text-sm font-semibold text-zinc-700 transition hover:text-zinc-950 focus:outline focus:outline-2 focus:outline-offset-4 focus:outline-cyan-600"
                             >
-                                Log out
-                            </button>
-                        </form>
-                    @endauth
+                                Dashboard
+                            </a>
+                            <a
+                                href="{{ route('admin.images.index') }}"
+                                class="text-sm font-semibold text-zinc-700 transition hover:text-zinc-950 focus:outline focus:outline-2 focus:outline-offset-4 focus:outline-cyan-600"
+                            >
+                                Images
+                            </a>
+                            <form method="POST" action="{{ route('logout') }}">
+                                @csrf
+                                <button
+                                    type="submit"
+                                    class="rounded-md border border-zinc-300 bg-white px-4 py-2 text-sm font-semibold text-zinc-950 transition hover:border-zinc-500 focus:outline focus:outline-2 focus:outline-offset-4 focus:outline-cyan-600"
+                                >
+                                    Log out
+                                </button>
+                            </form>
+                        @endauth
+                    </div>
                 </nav>
             </header>
 
