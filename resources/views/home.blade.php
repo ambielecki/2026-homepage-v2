@@ -82,27 +82,6 @@
                     </div>
                 </section>
 
-                <section aria-labelledby="proof-heading" class="border-y border-zinc-200 bg-zinc-950 text-white">
-                    <div class="mx-auto max-w-7xl px-6 py-8 sm:px-8">
-                        <h2 id="proof-heading" class="sr-only">Professional highlights</h2>
-
-                        <dl class="grid gap-6 sm:grid-cols-3">
-                            <div>
-                                <dt class="text-sm text-zinc-400">Experience</dt>
-                                <dd class="mt-2 text-3xl font-semibold">10+ years</dd>
-                            </div>
-                            <div>
-                                <dt class="text-sm text-zinc-400">Primary focus</dt>
-                                <dd class="mt-2 text-3xl font-semibold">Product systems</dd>
-                            </div>
-                            <div>
-                                <dt class="text-sm text-zinc-400">Leadership style</dt>
-                                <dd class="mt-2 text-3xl font-semibold">Practical and clear</dd>
-                            </div>
-                        </dl>
-                    </div>
-                </section>
-
                 <section id="expertise" aria-labelledby="expertise-heading" class="bg-zinc-50">
                     <div class="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:py-20">
                         <div class="max-w-3xl">
@@ -184,33 +163,6 @@
                                     Placeholder copy for side utilities, learning projects, and weekend builds that are useful enough to keep around.
                                 </p>
                             </article>
-                        </div>
-                    </div>
-                </section>
-
-                <section aria-labelledby="interests-heading" class="bg-zinc-50">
-                    <div class="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:py-20">
-                        <div class="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-                            <div class="overflow-hidden rounded-lg border border-zinc-200 bg-white shadow-sm">
-                                <img
-                                    src="{{ asset('images/beer_banner.jpg') }}"
-                                    alt="Tap handles representing a homebrewing hobby project"
-                                    class="aspect-[16/9] w-full object-cover"
-                                >
-                            </div>
-
-                            <div>
-                                <p class="text-sm font-semibold uppercase text-cyan-700">Interests</p>
-                                <h2 id="interests-heading" class="mt-3 text-3xl font-semibold text-zinc-950 sm:text-4xl">
-                                    A little more than the work history.
-                                </h2>
-                                <p class="mt-5 leading-7 text-zinc-700">
-                                    The homepage should eventually mix career notes with the parts of life that make the work more grounded: diving, homebrewing, family projects, local experiments, and the occasional overbuilt personal tool.
-                                </p>
-                                <p class="mt-5 leading-7 text-zinc-700">
-                                    This keeps the page useful for professional context without making it feel like a formal resume.
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -297,7 +249,6 @@
             <footer class="border-t border-zinc-200 bg-zinc-50">
                 <div class="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm text-zinc-600 sm:flex-row sm:items-center sm:justify-between sm:px-8">
                     <p>&copy; {{ date('Y') }} Andrew Bielecki</p>
-                    <p>Built with Laravel, Blade, and Tailwind CSS.</p>
                 </div>
             </footer>
         </div>

@@ -18,8 +18,13 @@ This will serve as my homepage at https://www.andrewbielecki.com and replace the
 ## Tool Calls
 - The application is running in docker in the 2026-php85-fpm-command container, 
 necessary PHP commands should be run in the docker container by using `docker exec -it 2026-php85-fpm-command`
-- Use node installed via nvm, use the 26.4.0 version
+- The working dir of the container is `/var/www/html`, the project itself is in `/var/www/html/2026-homepage-v2`, run commands there
+- Use node installed via nvm, use the 26.4.0 version, node commands are run in the system, not docker
+- Use the chrome mcp for necessary browser interaction
+- playwright mcp is also available for necessary browser interaction
 
 ## Other
-- Create a committ message after any changes
+- Create a commit message after any changes
 - Update the README.md after major functionality changes
+- All PHP functions should have return types and all parameters should have type hints
+- All created files should have strict_types=1 set

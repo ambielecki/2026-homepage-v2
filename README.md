@@ -26,3 +26,26 @@ http://bielecki.test
 
 Frontend assets are built with Vite, and PHP code is tested with Laravel's HTTP
 testing tools.
+
+## Admin Area
+
+The admin area is available at:
+
+```text
+http://bielecki.test/admin
+```
+
+Admin users log in at `/login` with email and password. There is no public
+registration flow and no web password reset flow.
+
+Create an admin user from the project directory inside the PHP container:
+
+```bash
+docker exec -it -w /var/www/html/2026-homepage-v2 2026-php85-fpm-command php artisan admin:create
+```
+
+Reset an admin password with:
+
+```bash
+docker exec -it -w /var/www/html/2026-homepage-v2 2026-php85-fpm-command php artisan admin:reset-password
+```
